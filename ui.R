@@ -15,7 +15,7 @@ shinyUI(pageWithSidebar(
     numericInput("debut", "data de départ", 1960),
     numericInput("fin", "date de fin", 2012),
     numericInput("nobs", "Nombre d'observation", 11),
-    helpText(HTML("<br></br>Code source sur <a href = \"https://github.com/dickoa\">Github</a>"))
+    helpText(HTML("<br></br>Code source sur <a href = \"https://github.com/dickoa/OpenDataApp\">Github</a>"))
   ),
 
   # Show the caption and plot of the requested variable against mpg
